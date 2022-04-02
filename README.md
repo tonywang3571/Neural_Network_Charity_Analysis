@@ -32,6 +32,6 @@ I performed ETL on our dataset to aquire the data needed for our specific analys
 ### Codes Used  
 (Please look at specific files for codes used)  
 Code for [initial analysis](https://github.com/tonywang3571/Neural_Network_Charity_Analysis/blob/master/AlphabetSoupCharity.ipynb)  
-Code for [first optimization](https://github.com/tonywang3571/Neural_Network_Charity_Analysis/blob/master/AlphabetSoupCharity_Optimization1.ipynb)  
-Code for [second optimization](https://github.com/tonywang3571/Neural_Network_Charity_Analysis/blob/master/AlphabetSoupCharity_Optimization2.ipynb)  
-Code for [third optimization](https://github.com/tonywang3571/Neural_Network_Charity_Analysis/blob/master/AlphabetSoupCharity_Optimization3.ipynb)  
+Code for [first optimization attempt](https://github.com/tonywang3571/Neural_Network_Charity_Analysis/blob/master/AlphabetSoupCharity_Optimization1.ipynb)  
+Code for [second optimization attempt](https://github.com/tonywang3571/Neural_Network_Charity_Analysis/blob/master/AlphabetSoupCharity_Optimization2.ipynb)  
+Code for [third optimization attempt](https://github.com/tonywang3571/Neural_Network_Charity_Analysis/blob/master/AlphabetSoupCharity_Optimization3.ipynb)  
