@@ -34,7 +34,7 @@ I performed ETL on our dataset to transform the data needed for our specific ana
 ## Summary  
 
 **Conclusion:**  
-The purpose of this project is to create a deep learning neural network model to accurately predicts which organizations are worth doating to and which are higher risk. This model will accurately predict successfulness ~73% of the time. Other supervised learning classification models (i.e. logistic regression) could be used and provide a better result with less time and resources. This would be benefitual to explore further.  
+The purpose of this project is to create a deep learning neural network model to accurately predicts which organizations are worth doating to and which are higher risk. This model will accurately predict successfulness ~73% of the time. Other supervised learning classification models (i.e. logistic regression) could be used and provide a better result with less time and resources. This would be beneficial to explore further.  
 
 ### Codes Used  
 (Please look at specific files for codes used)  
