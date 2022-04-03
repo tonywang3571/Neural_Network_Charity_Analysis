@@ -23,7 +23,7 @@ I performed ETL on our dataset to transform the data needed for our specific ana
 - Compiling, Training, and Evaluating the Model  
   - How many neurons, layers and activation functions did you select for your neural network model, and why?  
   - Initially, we performed the test with 2 hidden layers with 80 and 30 neurons respectively (see image below), as well as activation function "relu" to match the sample code.  
-<img src="Resources/initial_model.PNG">  
+  <img src="Resources/initial_model.PNG" alignment='center'>  
   - The target model performance of 75% or greater was not obtained with the initial model and 3 optimization attempts. All models were roughly similar to each other at around 72-73%.  
   - Optimization Attempt 1, increase number of hidden layers to 3 with 50 neurons.  
   - Optimization Attempt 2, increase number of hidden layers to 4 with 50 and 80 neurons respectively, cahnged activation to "tanh" for 2nd and 3rd hidden layer, increase Epoch to 100.    
