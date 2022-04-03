@@ -22,8 +22,9 @@ I performed ETL on our dataset to transform the data needed for our specific ana
 
 - Compiling, Training, and Evaluating the Model  
   - Initially, we performed the test with 2 hidden layers with 80 and 30 neurons respectively, as well as activation function "relu" to match the sample code. The initial model had a performance of 72.8% accuracy.  
-<p align="center"><img src="Resources/initial_model.PNG"></p>
-<p align="center"><img src="Resources/initial_acc.PNG"></p>
+<p align="center"><img src="Resources/initial_model.PNG"></p>  
+<p align="center"><img src="Resources/initial_acc.PNG"></p>  
+
 - Optimization Attempts and Results
   - The target model performance of 75% or greater was not obtained with the 3 optimization attempts. All models were roughly similar to each other at around 72-73%.  
   - Optimization Attempt 1, increase number of hidden layers to 3 with 50 neurons. Accuracy of 72.9%.  
