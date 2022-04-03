@@ -12,22 +12,27 @@ The purpose of this project is to create a deep learning neural network model fo
 ## Analysis and Results  
 
 **Analysis:**  
-I performed ETL on our dataset to aquire the data needed for our specific analysis. I then created a density plot to determine how to split the data into different bins or buckets, encode the categorical variables using one-hot encoding, then merge merging the dataframes and dropping the original columns. Next, I split the data into training and testing datasets and scaling the datasets with StandardScaler.  
+I performed ETL on our dataset to transform the data needed for our specific analysis and for building our model. I then created a density plot to determine how to split the data into different bins or buckets. I then split the data into training and testing groups to evaluate our model to see how accurately it predicts donation candidates from our dataset.  
 
 **Results:**  
-- Data Preprocessing  
-  - What variable(s) are considered the target(s) for your model?  
-  - What variables are considered to be the features for your model?  
-  - What var are neither targets nor features and should be removed from the input data?  
+- Data Preprocessing:  
+  - Our target variable for this model is the "IS_SUCCESSFUL" column. This will be the output of the neural network model is trying to predict.  
+  - All other variables are considered to the be target variable (Application Type, Affiliation, Classification, Use_Case, Organization, status, Income Amount, Special Consideration, Ask Amount).  
+  - The "Name" and "EIN" variables were dropped at the start of our analysis as they did not add any value to the analysis.  
 
 - Compiling, Training, and Evaluating the Model  
   - How many neurons, layers and activation functions did you select for your neural network model, and why?  
-  - Were you able to achieve the target model performance?  
-  - What steps did you take to try and increase model performance?  
+  - Initially, we performed the test with 2 hidden layers with 80 and 30 neurons respectively (see image below), as well as activation function "relu" to match the sample code.  
+<img src="Resources/initial_model.PNG">  
+  - The target model performance of 75% or greater was not obtained with the initial model and 3 optimization attempts. All models were roughly similar to each other at around 72-73%.  
+  - Optimization Attempt 1, increase number of hidden layers to 3 with 50 neurons.  
+  - Optimization Attempt 2, increase number of hidden layers to 4 with 50 and 80 neurons respectively, cahnged activation to "tanh" for 2nd and 3rd hidden layer, increase Epoch to 100.    
+  - Optimization Attempt 3, increase number of hidden layers to 3 with 50 neurons, adjusted bins from 500 to 600 and from 1500 to 6000.  
+
 
 ## Summary  
 
-**Conclusion**  
+**Conclusion:**  
 
 ### Codes Used  
 (Please look at specific files for codes used)  
