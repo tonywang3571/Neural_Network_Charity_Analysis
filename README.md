@@ -28,13 +28,13 @@ I performed ETL on our dataset to transform the data needed for our specific ana
 - Optimization Attempts and Results
   - The target model performance of 75% or greater was not obtained with the 3 optimization attempts. All models were roughly similar to each other at around 72-73%.  
   - Optimization Attempt 1, increase number of hidden layers to 3 with 50 neurons. Accuracy of 72.9%.  
-  - Optimization Attempt 2, increase number of hidden layers to 4 with 50 and 80 neurons respectively, cahnged activation to "tanh" for 2nd and 3rd hidden layer, increase Epoch to 100. Accuracy of 72.7%.  
+  - Optimization Attempt 2, increase number of hidden layers to 4 with 50 and 80 neurons respectively, changed activation to "tanh" for 2nd and 3rd hidden layer, increase Epoch to 100. Accuracy of 72.7%.  
   - Optimization Attempt 3, increase number of hidden layers to 3 with 50 neurons, adjusted bins from 500 to 600 and from 1500 to 6000. Accuracy of 72.7%.  
-
 
 ## Summary  
 
 **Conclusion:**  
+The purpose of this project is to create a deep learning neural network model to accurately predicts which organizations are worth doating to and which are higher risk. This model will accurately predict successfulness ~73% of the time. Other supervised learning classification models (i.e. logistic regression) could be used and provide a better result with less time and resources. This would be benefitual to explore further.  
 
 ### Codes Used  
 (Please look at specific files for codes used)  
